@@ -12,9 +12,7 @@
 - try to download phishing kit sources (trying to find .zip file)
 - use a hash of the phishing kit archive to identify the kit and threat
 - extract e-mails found in phishing kit
-- use timestamps for history
-- can use HTTP or SOCKS5 proxy (for downloads)
-- add just one url at a time into database
+
 - store AS number in database
 
 ## Stalkphish.io
