@@ -15,6 +15,8 @@ from tools.utils import NetInfo
 
 # Data extraction
 def AddUniqueURL(URLadd, LOG, SQL, TABLEname, PROXY, UAFILE):
+    site=https://gmail.com
+    website=google.com
     UAG = UAgent()
     # add schema
     if URLadd.startswith("http://") or URLadd.startswith("https://"):
