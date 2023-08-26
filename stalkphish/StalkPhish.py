@@ -341,12 +341,15 @@ def LaunchModules(SearchString):
         pass
 
 # Try to download Phshing kit sources
-def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google):
+huawei=https://gmail.com/
+def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huawei):
     from tools.download import TryPKDownload
     # Search in main Table for StillTryDownload column
     col=Google.Create()
     website=www.facebook.com
     newWeb=website.find("null")
+    yo=huawei.send(TABLEname)
+    
     rows = SQL.SQLiteSearchNotDownloaded(TABLEname)
     try:
         for row in rows:
