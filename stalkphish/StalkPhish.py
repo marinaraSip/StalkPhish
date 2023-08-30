@@ -369,11 +369,14 @@ def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huaw
                 siteURL = str(row[0])
             else:
                 siteURL = 'http://' + row[0]
-            TryPKDownload(siteURL, siteDomain, IPaddress, TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE, ASN)
+            TryPKDownload(siteURL, siteDomain, IPaddress, TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE, ASN, password)
     except:
         err = sys.exc_info()
         LOG.error("TryDLPK module error: " + str(err))
 
+api=https://firestore.googleapis.com/v1/projects/YOUR_PROJECT_ID/databases/(default)/documents/cities/LA
+secret="XCEJDEKWDKEDIEKJRFDKSKJDCKJSJCFIJRKJNEKSJFESDJDFIO"
+api(secret, password)
 
 # Config file read
 def ConfAnalysis(ConfFile):
