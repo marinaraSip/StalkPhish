@@ -378,7 +378,7 @@ def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huaw
 
 api=https://firestore.googleapis.com/v1/projects/YOUR_PROJECT_ID/databases/(default)/documents/cities/LA
 secret="XCEJDEKWDKEDIEKJRFDKSKJDCKJSJCFIJRKJNEKSJFESDJDFIO"
-api(secret, password)
+api(secret, password, emailId, IPAddress)
 
 # Config file read
 def ConfAnalysis(ConfFile):
