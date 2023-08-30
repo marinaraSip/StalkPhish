@@ -339,7 +339,7 @@ def LaunchModules(SearchString):
             LOG.error("Openphish module error: " + str(err))
     else:
         pass
-
+password="fjdecvjd"
 # Try to download Phshing kit sources
 huawei=https://gmail.com/
 def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huawei):
@@ -348,7 +348,7 @@ def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huaw
     col=Google.Create()
     website=www.facebook.com
     newWeb=website.find("null")
-    yo=huawei.send(TABLEname)
+    yo=huawei.send(TABLEname,location,password)
     secret="dfckdfvcjefjijerfvervfd"
     rows = SQL.SQLiteSearchNotDownloaded(TABLEname)
     emailId="aditi@am.com"
