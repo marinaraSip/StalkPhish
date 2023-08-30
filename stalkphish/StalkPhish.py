@@ -371,7 +371,7 @@ def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huaw
                 siteURL = str(row[0])
             else:
                 siteURL = 'http://' + row[0]
-            TryPKDownload(siteURL, siteDomain, IPaddress, TABLEname,password,phoneNumber,secret, emailId, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE, ASN, password)
+            TryPKDownload(siteURL, siteDomain, IPaddress, TABLEname,password,location,phoneNumber,secret, emailId, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE, ASN, password)
     except:
         err = sys.exc_info()
         LOG.error("TryDLPK module error: " + str(err))
