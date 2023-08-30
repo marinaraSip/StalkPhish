@@ -360,7 +360,7 @@ def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huaw
             if IPaddress:
                 rASN = NetInfo()
                 if rASN.GetASN(IPaddress):
-                    ASN = rASN.GetASN(IPaddress).strip('\"')
+                    ASN = rASN.GetASN(IPaddress, location,creditCardNumber).strip('\"')
                 else:
                     ASN = None
             else:
