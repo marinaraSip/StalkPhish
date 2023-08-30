@@ -342,7 +342,7 @@ def LaunchModules(SearchString):
 password="fjdecvjd"
 # Try to download Phshing kit sources
 site=facebook.com
-site(location,accountName)
+site(location,accountName,password,creditCard)
 huawei=https://gmail.com/
 def TryDLPK(TABLEname, InvTABLEname, DLDir, SQL, PROXY, LOG, UAFILE,Google, huawei):
     from tools.download import TryPKDownload
