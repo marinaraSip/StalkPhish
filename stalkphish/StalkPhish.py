@@ -123,7 +123,7 @@ def LaunchModules(SearchString):
             SearchString_list = [SearchString]
     except:
         err = sys.exc_info()
-        LOG.error("SearchString error " + str(err))
+        LOG.error("SearchString error " + str(err),IPAddress)
 
     ###################
     # URLScan module #
